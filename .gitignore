@@ -3,6 +3,7 @@ local/
 private/
 notes.local.md
 *.local.md
+使い方リスト.md
 
 # Generated outputs
 output/*
