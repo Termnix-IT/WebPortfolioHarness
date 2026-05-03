@@ -50,6 +50,10 @@ career-page-harness/
 ├─ scripts/
 │  └─ README.md
 └─ docs/
+   ├─ automation_design.md
+   ├─ checklists.md
+   ├─ github_publication.md
+   ├─ roadmap.md
    ├─ workflow.md
    ├─ design_policy.md
    ├─ public_repository_policy.md
@@ -63,6 +67,27 @@ career-page-harness/
 3. 必要に応じて `templates/` の形式で出力を整える
 4. 生成案を人間が確認する
 5. 問題がなければ既存ポートフォリオrepoへ手動で反映する
+
+## Practical Workflow
+
+既存ポートフォリオページを改善するときは、次の順で進めます。
+
+1. `data/` の `TODO` を確認する
+2. `output/reviews/initial_review.md` を読み、改善優先度を確認する
+3. `output/proposals/` の反映案を確認する
+4. 事実・公開可否・表現を人間が確認する
+5. 既存ポートフォリオrepoへ手動で反映する
+6. 表示確認後、必要に応じて `data/` に戻して情報を更新する
+
+## Priority Backlog
+
+現時点の優先順位は以下です。
+
+1. `data/` の `TODO` を埋める
+2. 初回レビューをもとに改善候補を選ぶ
+3. `index.html` の Hero / Overview / Career 文案を調整する
+4. `portfolio.html` の Project 01 / Project 02 文案を調整する
+5. リンクと公開可否を確認してから既存ポートフォリオrepoへ反映する
 
 ## Public Repository Policy
 
@@ -99,3 +124,5 @@ career-page-harness/
 - 公開禁止ワードの簡易チェック
 - HTML差し替え案の自動生成
 - 既存ポートフォリオrepoへのPR作成補助
+
+詳細な拡張方針は `docs/automation_design.md` と `docs/roadmap.md` を参照してください。

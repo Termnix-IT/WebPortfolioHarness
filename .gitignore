@@ -7,6 +7,12 @@ notes.local.md
 # Generated outputs
 output/*
 !output/.gitkeep
+!output/reviews/
+!output/reviews/.gitkeep
+!output/reviews/*.md
+!output/proposals/
+!output/proposals/.gitkeep
+!output/proposals/*.md
 
 # Python
 .venv/
