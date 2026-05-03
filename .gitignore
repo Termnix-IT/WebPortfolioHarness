@@ -1,0 +1,28 @@
+# Local notes and drafts
+local/
+private/
+notes.local.md
+*.local.md
+
+# Generated outputs
+output/*
+!output/.gitkeep
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node / tooling
+node_modules/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
