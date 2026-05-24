@@ -4,7 +4,7 @@
 
 ## Public Profiles
 
-- Portfolio:
+- Portfolio: TODO: 公開URL確認
 - GitHub: https://github.com/Termnix-IT
 - Qiita: https://qiita.com/Termnix-IT
 - LinkedIn:
@@ -28,3 +28,6 @@
 
 - 非公開URLや管理画面URLは記載しない
 - 認証情報、トークン、メールアドレスを含むURLは記載しない
+- 既存ポートフォリオrepoでは `contact.html` に問い合わせフォームを実装済み
+- 問い合わせフォームの送信先URLは公開エンドポイントとして扱い、認証情報や秘密情報として管理しない
+- フォーム運用方針は既存ポートフォリオrepoの `docs/MAINTENANCE.md` を参照する
